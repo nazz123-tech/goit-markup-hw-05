@@ -463,7 +463,6 @@ img{
     color: #FFFFFF;
     font-size: 12px;
     line-height: 2;
-    line-height: 1.17;
     letter-spacing: 0.04em;
 }
 .user_mail::placeholder{
@@ -471,6 +470,7 @@ img{
     color:#FFFFFF;
 }
 .sub_button{
+    font-family: "Roboto", sans-serif;
     display: flex;
     height: 40px;
     min-width: 165px;
