@@ -537,23 +537,22 @@ img{
         color:#2E2F42;
 }
 
-.user_name, .user_phone, .modal_mail{
+.user{
     width: 360px;
     height: 40px;
     margin-bottom: 8px;
-    border: 1px solid #2E2F4266;
     border-radius: 4px; 
     color: black;
     width: 100%;
     display: block;
-        padding: 10px 10px 10px 38px;
-        border: 1px solid #ccc;
-        border-radius: 6px;
-        font-size: 14px;
-        box-sizing: border-box;
-        align-items: center;
-        outline: none;
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    padding: 10px 10px 10px 38px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    font-size: 14px;
+    box-sizing: border-box;
+    align-items: center;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
     
 }
 .comment{
@@ -633,7 +632,7 @@ img{
     fill: #4d5ae5;
 }
 
-.user_name:focus-within, .user_phone:focus-within, .modal_mail:focus-within{
+.user:focus-within{
     border-color: #4D5AE5;
 }
 .comment:focus-within{
