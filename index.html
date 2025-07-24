@@ -319,7 +319,53 @@
                 </ul>
             </div>
         </section>
+        </div>
     </main>
+    <div class="modal_overlay is-open">
+        <div class="modal">
+            <button class="close">
+                <svg class="closing">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <h3 class="form_title">Leave your contacts and we will call you back</h3>
+            <form class="order_service" name="order">
+                <label for="name" class="input-label">
+                    Name
+                    <span class="input-wrapper">
+                        <svg class="icon_modal">
+                            <use href='./images/icons.svg#icon-user'></use>
+                        </svg>
+                        <input class="user_name" name="name" type="text" required />
+                    </span>
+                </label>
+                <label>
+                    Phone
+                    <span class="input-wrapper">
+                        <svg class="icon_modal">
+                            <use href='./images/icons.svg#icon-phone'></use>
+                        </svg>
+                        <input class="user_phone" name="phone" type="tel" required />
+                    </span>
+                </label>
+                <label>
+                    Email
+                    <span class="input-wrapper">
+                        <svg class="icon_modal">
+                            <use href='./images/icons.svg#icon-Vector-4'></use>
+                        </svg>
+                        <input class="modal_mail" name="name" type="mail" required />
+                    </span>
+                </label>
+                <label>
+                    Comment
+                    <textarea class="comment" name="comment" placeholder="Text input" rows="6"></textarea>
+                </label>
+                <label><input type="checkbox" name="agree" class="agreement" value="yon" required>I accept the terms and conditions of the Privacy Policy</label>
+                <button class="form_send" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
     <footer class="foot">
         <div class="container down">
             <div class="leftside">
@@ -362,6 +408,21 @@
                     </a>
                 </li>
                 </ul>
+            </div>
+            <div class="subscribe_footer">
+                <form class="sub" name="subscribtion">
+                    <label class="sub_title">
+                        Subscribe
+                        <div class="subs_div"><input class="user_mail" placeholder="E-mail" name="enter_mail" type="email">
+                        <button class="sub_button" type="submit">
+                            Subscribe
+                            <svg class="send">
+                                <use href="./images/icons.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                        </div>
+                    </label>
+                </form>
             </div>
         </div>
     </footer>
